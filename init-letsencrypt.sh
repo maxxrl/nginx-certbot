@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(server.maxxrl.app www.server.maxxrl.app)
+domains=(server.maxxrl.app)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="m.wesener@gmx.de" # Adding a valid address is strongly recommended
